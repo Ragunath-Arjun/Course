@@ -1,0 +1,33 @@
+*{
+    /* background-color: yellow; */
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    list-style-type: none;
+}
+
+a{
+    display:block;
+    width: 100px;
+    background-color: black;
+    color:white;
+    padding: 10px 0;
+    text-align: center;
+}
+a:hover{
+    background-color: White;
+}
+.inside{
+    display:none;
+    list-style-type: none;
+}
+.head li:nth-child(1):hover .inside {
+    display:block;
+    padding: 10px;
+}
