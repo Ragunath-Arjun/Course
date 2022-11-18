@@ -1,0 +1,301 @@
+body {
+  background-color: #303e47;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+.main-title-head {
+  display: flex;
+  max-width: 30%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  font-family: "Archivo", sans-serif;
+}
+.logo {
+  height: 125px;
+  width: 125px;
+  margin-top: 8px;
+}
+.title {
+  margin: 0;
+  padding: 8px;
+  color: #ff5c56;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.sub-title {
+  margin-top: 0;
+  color: white;
+  padding: 10px;
+  font-size: 1.25rem;
+}
+.row {
+  max-width: 50%;
+  display: flex;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+.orange {
+  background-color: #ff9e1b;
+}
+.blue {
+  background-color: #00b2e2;
+}
+.tomato {
+  background-color: #ff5959;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+.column1,
+.column2 {
+  flex: 1;
+  padding: 20px;
+  line-height: 1.75rem;
+}
+.column1 {
+  padding-top: 30px;
+}
+.oneinthree,
+.ow,
+.risk,
+.fries,
+.juice {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-weight: bold;
+  line-height: 1.75rem;
+  margin-bottom: 8px;
+}
+.content {
+  text-align: center;
+  color: white;
+}
+.estimated {
+  padding: 10px;
+}
+.million {
+  display: flex;
+  flex: 0 0 auto;
+  margin-left: 45px;
+  /* justify-content:space-around; */
+}
+.number12 {
+  margin-left: 10px;
+  margin-top: 8px;
+  text-align: left;
+  font-size: 50px;
+  font-family: "Archivo", sans-serif;
+}
+.mill {
+  margin-top: 5px;
+  font-stretch: extra-expanded;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.content1 {
+  display: flex;
+  padding-bottom: 15px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.images1 {
+  display: flex;
+  position: relative;
+  width: 50%;
+  flex: 0 0 auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+.row1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 670px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.imgtxt {
+  color: white;
+  text-align: left;
+}
+.text {
+  text-align: left;
+  flex-grow: 2;
+  /* margin-top: 8px; */
+  font-size: 1.75rem;
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-weight: bold;
+}
+.imgimg {
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.content2 {
+  color: white;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 100%; */
+  padding: 20px 30px 20px 30px;
+  color: white;
+  line-height: 1.5rem;
+  width: 650px;
+}
+.container1,
+.container2 {
+  display: flex;
+  flex-direction: row;
+  /* padding: 20px; */
+  justify-content: space-evenly;
+}
+.cr1,
+.cr2,
+.cc1,
+.cc2 {
+  padding: 10px;
+  flex: 1;
+  justify-content: space-evenly;
+}
+.riskfactor {
+  padding: 10px;
+}
+
+.cr1,
+.cc1 {
+  margin-right: 50px;
+}
+.row4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 710px;
+}
+
+.fries-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  line-height: 1.75rem;
+  padding: 10px 10px 10px 10px;
+}
+.coconutimage,
+.frenchfriesimg {
+  text-align: center;
+}
+.t25,
+.t40 {
+  margin-left: 10px;
+  padding: 10px;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Archivo", sans-serif;
+}
+.row5 {
+  display: flex;
+  flex: 2;
+  padding: 20px;
+}
+.more,
+.nearly,
+.t147 {
+  color: white;
+  font-family: "Archivo", sans-serif;
+  text-align: left;
+  font-size: 50px;
+  font-family: "Archivo", sans-serif;
+  font-weight: bold;
+}
+.toddlers {
+  flex: 4;
+  padding: 10px;
+}
+.tvimg {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  margin-left: 50px;
+}
+.remote {
+  margin-top: 60px;
+  flex: 3;
+}
+.row6 {
+  max-width: 710px;
+  display: flex;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+
+.row7 {
+  max-width: 710px;
+  display: flex;
+  margin: 0 auto;
+  flex: 1;
+}
+.cycle {
+  display: flex;
+  width: 100%;
+  padding-left: 80px;
+  height: 100%;
+  /* padding-top: 30px; */
+}
+.dont {
+  text-align: left;
+}
+
+.container5 {
+  display: flex;
+  padding: 20px;
+}
+.row9,
+.row111 {
+  padding: 30px;
+  display: flex;
+  max-width: 710px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.cc3 {
+  flex: 1;
+}
+.t147 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.content10 {
+  color: white;
+  text-align: center;
+  line-height: 1.5rem;
+  /* padding-bottom: 20px; */
+}
+.moneyimg {
+  text-align: center;
+  padding-top: 30px;
+}
+.children {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-weight: bold;
+  line-height: 1.75rem;
+  padding: 30px;
+}

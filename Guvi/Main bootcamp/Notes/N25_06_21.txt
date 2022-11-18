@@ -1,0 +1,39 @@
+//OOP
+
+//this keyword in js
+//Classes and objects
+//destructuring
+//this is having different behaviour w.r.t to classes and objects
+//this is having different behaviour w.r.t individually
+
+// console.log(this);// in browser console
+// function myfunc(){
+//     return this;
+// }
+// console.log(myfunc());
+
+//classes -> blueprint of the objects
+//Objects -> real time   entity
+//Constructors: a special way of assigning values to the objects
+// class Car{
+//     constructor(name,year){
+//         this.name = name;
+//         this.year = year;
+//     }
+// }
+// //var referencename = new classname();
+// var s1 = new Car("ford",2018);
+// var s2 = new Car("Benz",2020);
+// // var s2 = s1;
+// // s2.name = "Audi";
+// console.log(s1.name +" "+ s1.year);
+// console.log(s2.name +" "+ s2.year);
+
+//...rest operator
+//... -> spread operator
+// var [s1,...s2] = ["guvi","geek","IIT research park"];
+
+// console.log(s1);
+// console.log(s2);
+// console.log(rest);
+

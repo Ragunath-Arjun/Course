@@ -1,0 +1,93 @@
+//functional scope -> var is gloabl and functional scope
+//IIFE
+//Array Methods MRF
+
+//Functional scope
+// var res = 10;
+// var result = function(a,b){
+//     console.log(res)
+//     return res;
+// };
+
+// console.log(res);  //Error -> res not defined
+// console.log(result(12,13));
+
+//Array Methods MRF
+//map,reduce,filter and foreach
+
+//map -> will take 2 parameters
+//element(optional),function
+//element -> the array element
+//it will apply function on each and every array element and
+//it will return new array
+// var arr = [1,2,3,4];
+// //var  res = [2,4,6,8]; instead of push
+// var res = arr.map(function foo(ele){
+//     return ele*2;
+//     // console.log(ele*2);
+// });
+// console.log(res);
+// var data = [{
+//     name:"alex",
+//     marks:50
+// },
+// {
+//     name:"bob",
+//     marks:60
+// }];
+
+// var res = [{
+//     name:"alex",
+//     marks:60
+// },{
+//     name:"bob",
+//     marks:70
+// }];
+
+// res = data.map(function (data){
+//     mark = data.marks + 10;
+//     data.marks = mark;
+//     return data;
+// });
+// console.log(res)
+
+
+//filter -> separation / 
+//take function as a parameter applies on each function and if that condition is satisfied it will be pushed to the resultant array
+//Exam: 
+//60 students -> 
+
+// var arr = [1,2,3,4];
+// var res = arr.filter(function foo(element){
+//     // return element%2 === 0;
+// });
+// console.log(res);
+
+var data = [{
+    name:"alex",
+    marks:50
+},
+{
+    name:"bob",
+    marks:60
+},{
+    name:"alice",
+    marks:55
+}];
+
+// var res = data.filter(function foo(element){
+//         return element.marks > 50;
+// }).map(function foo(element){
+//     return element.name;
+// });
+// var res = data.map(function(element){
+//     if(element.marks > 50)
+//     return element.name;
+// });
+// console.log(res);
+
+
+
+
+
+

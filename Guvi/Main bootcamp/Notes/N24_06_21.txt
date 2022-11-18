@@ -1,0 +1,56 @@
+//reduce,forEach
+//ES5 vs ES6 (arrow functions)
+//task
+
+//reduce?? -> reduce the array elements into the individual value
+//function as a parameter in which we have two important prameters
+//1.accumulator -> initial values
+//2.element
+
+//if you dont initialise the initial value
+// var arr = [1,2,3,4,5];
+// var res = arr.reduce(function foo(accumulator,element){
+//     return accumulator+element;
+// },100/*initialisation*/);
+// console.log(res);
+
+//forEach -> it will take function as a parameter apply function on each element and it will return nothing-> alternate for for loop
+//Array.prototype
+// var arr = [1,2,3,4];
+
+// arr.forEach(function foo(element,index){
+//     console.log(element +" "+ index);
+//     // console.log(index);
+//     return element;
+// });
+//return type is always undefined
+
+//for loop vs for each
+//for -> fixed,we are initialising
+//forEach -> inbuilt method,passing a function(->input)
+//forEach keeps the variable scope to the block
+
+// var arr = [1,2,3,4];
+
+// var result = function(a,b){
+//     return a*b;
+// };
+
+//in Arrow function
+// variable = (a,b) =>{
+//     //block of code
+// }
+//if we have a single statement no need to mentioin return keyword
+// var result = (a,b) => a*b;
+
+// var result = function(a,b){
+//     var result = 10;
+//     return a*b;
+// };
+
+var result = (a,b) => {
+    var result = a*b;
+    return result;
+};
+
+console.log(result(10,20));

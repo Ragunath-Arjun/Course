@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.userform {
+  flex-basis: 40%;
+  height: 100vh;
+  background-color: antiquewhite;
+  border: 2px solid black;
+}
+.datatable {
+  flex-basis: 60%;
+  height: 100vh;
+  background-color: rgb(255, 203, 134);
+  border: 2px solid black;
+  overflow: auto;
+}
+.user-form-title {
+  text-align: center;
+  font-size: 2rem;
+  color: burlywood;
+  text-decoration: underline;
+}
+.input-name,
+.input-password {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-around;
+}
+.input-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem;
+}
+/* .mobile {
+  margin-right: 4.2rem;
+}
+.dob {
+  margin-right: 2rem;
+} */
+input {
+  padding: 0.5rem;
+}
+.input-submit {
+  display: flex;
+  justify-content: space-around;
+}
+.submit,
+.change,
+.delete {
+  background-color: chocolate;
+  color: blanchedalmond;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.25rem;
+  border: 2px solid burlywood;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: rgb(136, 57, 1);
+  color: blanchedalmond;
+}
+.maintable,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 0.5rem;
+}
+td {
+  text-align: left;
+  color: rgb(36, 2, 68);
+}
+.edit {
+  background-color: coral;
+  color: cornsilk;
+  padding: 6px 10px;
+  font-size: 1.1rem;
+  border: 1px solid rgb(255, 196, 0);
+}
+.change-display,
+.delete-display {
+  display: none;
+}

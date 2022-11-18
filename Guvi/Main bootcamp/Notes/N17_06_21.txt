@@ -1,0 +1,40 @@
+//scope & accessibility
+//var
+//let , const -> latest version(ES6) of the JS
+// var global scope & functional scope
+//let and const block scope
+//const -> special meaning outside of block
+
+// if(5>4)
+// {
+//     let s1 = "guvi";
+//     {{
+//     console.log(s1);
+//     }}
+// }
+// console.log(s1);
+
+
+// if(5>4)
+// {
+//     {{
+//     let s1 = "guvi";   //error s1 is not defined
+//     }}
+//     console.log(s1);
+// }
+
+// if(5>4)
+// {
+//     const s1 = "guvi";
+//     {{
+//     console.log(s1);
+//     }}
+// }
+
+// const pi = 3.1234;
+// pi = 3.23;
+// console.log(pi);
+
+//Hoisting -> pushing the variable top of the scope
+
+

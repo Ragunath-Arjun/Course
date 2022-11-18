@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* overflow: hidden;
+  height: 5000px; */
+}
+.scroll {
+  background-color: #221526;
+  height: 700px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  padding: 100px;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+.scrolling {
+  margin-top: 125px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 15px;
+  padding: 50px;
+  font-family: "Cormorant Garamond", serif;
+  /* font-family: "Noto Sans JP", sans-serif; */
+}
+.thelong {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: lighter;
+  letter-spacing: 15px;
+  padding: 50px;
+  text-shadow: 0 7px rgba(255, 255, 255, 0.1);
+}
+.mouse {
+  padding: 10px;
+  text-shadow: 0 7px rgba(255, 255, 255, 0.1);
+}
+
+.long {
+  background-color: #e8ded5;
+  height: 400px;
+  padding: 100px;
+  text-align: center;
+  /* top: -137px; */
+  margin-top: 0;
+  position: relative;
+  /* top: -300px; */
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+.longscroll {
+  margin-top: 100px;
+  text-align: center;
+}
+.ls {
+  flex: 1;
+  margin-top: 125px;
+  font-size: 40px;
+  /* letter-spacing: 15px; */
+  padding: 50px 0 20px 0;
+  /* padding-right: 0; */
+  font-family: "Cormorant Garamond", serif;
+  /* font-family: "Noto Sans JP", sans-serif; */
+}
+.goodstuff {
+  margin-top: 140px;
+  font-size: 23px;
+  padding: 50px 0 20px 16px;
+  /* padding-left: 16px; */
+  font-weight: bold;
+  letter-spacing: 1px;
+  /* align-content: center; */
+  font-family: "Cormorant Garamond", serif;
+}
+.visual {
+  margin-right: 250px;
+  font-weight: bold;
+  font-size: 23px;
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: 1px;
+}
+.content,
+.content1,
+.mobile,
+.parallax,
+.these,
+.content4,
+.con50 {
+  max-width: 50%;
+  text-align: left;
+  margin-left: 330px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: lighter;
+}
+
+.story {
+  background-color: #24172b;
+  height: 400px;
+  padding: 100px;
+  text-align: center;
+  top: -228px;
+  margin-top: 0;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+.st {
+  /* flex: 1; */
+  color: white;
+  margin-top: 65px;
+  font-size: 40px;
+  padding: 50px 0 20px 0;
+}
+.st1,
+.st2 {
+  font-family: "Cormorant Garamond", serif;
+}
+.content1 {
+  margin-left: 428px;
+  color: white;
+}
+
+.simple {
+  background-color: #e9c2c7;
+  height: 400px;
+  padding: 100px;
+  text-align: center;
+  top: -320px;
+  margin-top: 0;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+.si,
+.eas {
+  color: black;
+  margin-top: 65px;
+  font-size: 40px;
+  padding: 50px 0 20px 0;
+  font-family: "Cormorant Garamond", serif;
+}
+.mobile {
+  margin-left: 360px;
+}
+
+.punchy {
+  background-color: #f1a2b5;
+  height: 400px;
+  padding: 100px;
+  text-align: center;
+  top: -411px;
+  margin-top: 0;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+.pun {
+  color: white;
+  margin-top: 65px;
+  font-size: 40px;
+  padding: 50px 0 20px 0;
+  font-family: "Cormorant Garamond", serif;
+}
+.parallax {
+  color: white;
+  margin-left: 359px;
+}
+.easier {
+  background-color: #e9dbce;
+  height: 400px;
+  padding: 100px;
+  text-align: center;
+  top: -501px;
+  margin-top: 0;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+
+.these,
+.eas {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.longscrollnot {
+  background-color: #24172b;
+  height: 400px;
+  padding: 100px;
+  text-align: center;
+  top: -591px;
+  margin-top: 0;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+.ls2 {
+  color: #f3b2c0;
+  margin-top: 65px;
+  font-size: 40px;
+  padding: 50px 0 20px 0;
+  font-family: "Cormorant Garamond", serif;
+}
+.ls3 {
+  margin-top: 65px;
+  font-size: 40px;
+  padding: 50px 0 20px 0;
+  font-family: "Cormorant Garamond", serif;
+}
+.notgoodstuff {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+.you {
+  color: #f3b2c0;
+  text-align: left;
+  margin-left: 285px;
+  padding-top: 15px;
+  font-size: 1.5rem;
+}
+.content4 {
+  margin-left: 285px;
+  color: #f3b2c0;
+}
+.slower {
+  background-color: #f7c5d0;
+  height: 400px;
+  padding: 100px;
+  text-align: center;
+  top: -681px;
+  margin-top: 0;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+.slow {
+  color: #221526;
+  margin-top: 65px;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 150px;
+  /* margin-left: 200px; */
+  padding: 50px 0 20px 0;
+  font-family: "Cormorant Garamond", serif;
+}
+.con50 {
+  margin-left: 150px;
+}
+
+.awkward {
+  background-color: #e7c9c9;
+  height: 400px;
+  padding: 100px;
+  text-align: center;
+  top: -771px;
+  margin-top: 0;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+.aw {
+  color: #221526;
+  margin-top: 65px;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0 20px 0;
+  font-family: "Cormorant Garamond", serif;
+}
+.con60 {
+  margin-left: 345px;
+}
+
+.asone {
+  background-color: #dbdcde;
+  height: 190px;
+  padding: 100px;
+  text-align: center;
+  top: -861px;
+  margin-top: 0;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+/* .container2 {
+  display: flex;
+  flex-direction: column;
+} */
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 0 20px 0;
+}
+.lastcon {
+  flex: 2;
+  text-align: left;
+  max-width: 80%;
+  /* margin-left: 330px; */
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: lighter;
+  padding: 0 125px 10px 0;
+}
+.address {
+  text-align: right;
+}
+.urls {
+  text-align: left;
+}
+.foot {
+  position: relative;
+  top: -875px;
+  padding: 40px;
+  background-color: #e8ded5;
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  flex: 2;
+}

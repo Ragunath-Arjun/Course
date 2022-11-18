@@ -1,0 +1,25 @@
+//GET Method
+
+https://api.jikan.moe/v3/anime/id/request/parameter
+
+
+//request & parameters
+
+Request			Parameter			Description
+/			N/A			Resource object with all it's details
+/characters_staff	N/A			List of character and staff members
+/episodes		Page number (integer)	List of episodes
+/news			N/A			List of Related news
+/pictures		N/A			List of Related pictures
+/videos			N/A			List of Promotional Videos & episodes (if any)
+/stats			N/A			Related statistical information
+/forum			N/A			List of Related forum topics
+/moreinfo		N/A			A string of more information (if any)
+/reviews		Page number (integer)	List of Reviews written by users
+/recommendations	N/A			List of Recommendations and their weightage made by users
+/userupdates		Page number (integer)	List of the latest list updates made by users
+
+
+
+
+https://api.jikan.moe/v3/search/anime?q=naruto

@@ -1,0 +1,34 @@
+//1. copy by value, copy by Reference
+//2. api fetching -> important
+//xml http request
+// copy by value are meant for primitive data types
+//copy by reference -> composite data types
+
+// var a = 23;
+// var b = a;
+// a = 24;
+// console.log(a,b);
+
+// var arr1 = [1,2,3,4];
+// var arr2 = arr1;
+// arr2[4] = 5;
+// console.log(arr1);
+
+
+//API -> Application Programming Interface
+//server responses:
+//XML,JSON
+//JSON 
+// var res = {
+//     'name':'guvi',     -> JSON
+//     'age':'123',
+//     'year':'2014'
+// };
+//All api uses JSON for rendering data
+/*var obj = {
+    name: 'guvi';
+    age:23
+}
+*/
+//XML http request
+

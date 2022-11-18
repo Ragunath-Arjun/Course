@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JS</title>
+</head>
+<body>
+    
+    <script>
+        var data = fetch("https://restcountries.eu/rest/v2/all");
+
+        data
+        .then(function(res){
+            return res.json()
+        })
+        .then(function(jsondata){
+            for(i=0;i<jsondata.length;i++){
+                var div = document.createElement('div');
+                var h2 = document.createElement('h2');
+                var img = document.createElement('img');
+                var span = document.createElement('span');
+                h2.innerText = jsondata[i].name; 
+                h2.style.display = "inline"
+                span.appendChild(h2);
+                var flagurl = jsondata[i].flag;
+                img.setAttribute("src",flagurl);
+                img.setAttribute("width","50px");
+                img.setAttribute("height","25px");
+                img.style.padding = "4px"
+                span.appendChild(img);
+                div.appendChild(span);                              
+                document.body.appendChild(div);
+            }
+        })
+        .catch(function(err){
+            console.log(err)
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+// Getting input via STDIN
+// const readline = require("readline");
+
+// const inp = readline.createInterface({
+//   input: process.stdin
+// });
+
+// const userInput = [];
+
+// inp.on("line", (data) => {
+//   userInput.push(data);
+// });
+
+// inp.on("close", () => {
+//     // 1.// function firstElement(arr,n){
+//     //     let res = [];
+//     //     let sres = 0;
+//     //     for(i=0;i<n;i++)
+//     //     {
+//     //         if(n === 1)
+//     //         {
+//     //             sres = arr[i];
+//     //             return sres;
+//     //         }
+//     //         res.push(arr[i]);
+//     //     }
+//     //     return res;
+//     // }
+    
+//     // let arr = userInput[0].split(" ").map(Number);
+//     // let n = userInput[1];
+//     // if ( n === undefined)
+//     // {
+//     //     n = 1;
+//     // }
+//     // else
+//     // {
+//     //     n = +userInput[1];
+//     // }
+//     // console.log(firstElement(arr,n))
+    
+//     // //2.
+//     // function lastElement(arr,n){
+//     //     let res = [];
+//     //     let sres = 0;
+//     //     for(i=arr.length-1;i>=arr.length-n;i--)
+//     //     {
+//     //         if(n === 1)
+//     //         {
+//     //             sres = arr[i];
+//     //             return sres;
+//     //         }
+//     //         if(i >= 0)
+//     //         {
+//     //             res.unshift(arr[i]);    
+//     //         }
+            
+//     //     }
+//     //     return res;
+//     // }
+    
+//     // let R = userInput[0].split(",");
+//     // let arr = R[0].split(" ").map(Number);
+//     // let n = R[1];
+//     // if ( n === undefined)
+//     // {
+//     //     n = 1;
+//     // }
+//     // else
+//     // {
+//     //     n = +R[1];
+//     // }
+//     // console.log(lastElement(arr,n))
+    
+    
+//     //1:
+//     // var first = function compute(arr,n){
+//     //     if(n === undefined)
+//     //         return arr[0];
+//     //     if(n<0)
+//     //         return [];
+        
+//     //     return arr.slice(0,n)
+//     // };
+    
+//     // console.log(first([1,2,3,4]))
+    
+    
+// });
+
+
+
+//functions
+//OpenWeather map
+
+//for -> preferred to display fixed num of time;
+//unary operator i++
+//functions -> used to perform a specific task;
+//normal
+
+//normal function
+// function mul(a,b){
+//   var res =  a*b;
+// //   console.log(res)
+//   return res;  //-> standard practise
+//     //console.log("hi") -> cannot be accessed/inaccessible
+// }
+
+// mul(12.2,13.2)
+//In JS we can assign function to a variable;
+
+// var multiply/*considered as a function name*/ = function (a,b){
+//                 var res =  a*b;
+//                 //   console.log(res)
+//                   return res;  //-> standard practise
+//                     //console.log("hi") -> cannot be accessed/inaccessible
+//                 }
+// console.log(multiply(12.3,4))
+
+

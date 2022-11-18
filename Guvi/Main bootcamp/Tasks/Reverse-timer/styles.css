@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(182, 124, 236);
+}
+
+.container {
+  background-color: rgb(165, 77, 248);
+  width: 75vw;
+  height: 75vh;
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  box-shadow: 1rem 1rem 1rem rgb(51, 19, 40);
+}
+.number {
+  /* background-color: cadetblue; */
+  height: 75%;
+  width: 50%;
+  font-size: 16rem;
+  text-align: center;
+  padding: 2rem;
+  align-items: center;
+  z-index: -1;
+  border-radius: 4rem;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.number p {
+  margin: 0;
+  padding: 2rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  z-index: 10;
+}

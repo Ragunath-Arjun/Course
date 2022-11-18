@@ -1,0 +1,22 @@
+body {
+  background-color: beige;
+}
+
+.box-center {
+  padding: 15px;
+  margin: 10px 0px;
+  background-color: chocolate;
+}
+.text {
+  padding: 10px 0px;
+}
+.box {
+  padding: 20px 10px;
+  margin: 10px 0px;
+}
+h1 {
+  background-color: coral;
+}
+.container {
+  background-color: darkgray;
+}

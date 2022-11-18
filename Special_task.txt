@@ -1,0 +1,97 @@
+Write a JavaScript function to generate an array between two integers of 1 step length.
+
+Input :
+console.log(range(3, 7));
+Expected Output:
+[3,4, 5, 6, 7]
+
+Input :
+console.log(range(-4, 7));
+Expected Output:
+[-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+
+Output code ::
+
+//Declaring two variables with names start and end respectively.
+
+
+var start;
+
+var end;
+
+//creating an empty array to store the result.
+
+
+var arr=[];
+
+// creating a functon called range and passing start and end value as parameters
+
+
+function range(start,end)
+{
+    
+// using for loop we can find the range with the below given 
+    
+for (var i=start; i<=end; i++)
+    
+{
+        
+// we need the result in array so creating an empty array in global and storing the values in that empty array using push() method
+
+       
+arr.push(i);
+    
+}
+
+// to take the result out of this function we use return keyword
+    
+return arr;
+
+}
+
+// Displaying the result by passing the value of range as parameters.
+
+
+console.log(range(3,7));
+
+
+
+2) Write a JavaScript program to find the most frequent item of an array.
+Sample array: 
+var arr1=[3, 'q', 'q', 'q', 2, 3, 'q', 3, 'q', 2, 4, 9, 3];
+Sample Output: q ( 5 times )
+
+Output code::
+
+var arr = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+
+var mf = 1;
+
+var m = 0; 
+var item;
+
+
+for (var i = 0; i < arr.length; i++) 
+{
+  for (var j = i; j < arr.length; j++) 
+{
+    if (arr[i] == arr[j]) m++;
+
+if (mf < m) 
+{
+      mf = m;
+      
+item = arr[i];
+    
+}
+  
+}
+
+
+m = 0;
+
+}
+
+
+console.log(item + " ( " + mf + " times ) ");
+

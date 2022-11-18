@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.topbar {
+  background-color: red;
+}
+
+.topbar > ul {
+  margin: 0;
+}
+.topbar > ul > li {
+  color: green;
+  display: inline;
+}

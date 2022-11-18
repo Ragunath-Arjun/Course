@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script defer src="script.js"></script> -->
+    <script defer src="script1.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="userform">
+            <div class="user-form-title">User-Form</div>
+            <div class="input-name">
+                <input id="name" type="text" placeholder="Name">
+                <input id="email" type="email" placeholder="e-mail">
+            </div>
+            <div class="input-mobile">
+                <input id="Mobile" type="number" placeholder="Mobile No." class="mobile">
+                <input id="dob" type="date" placeholder="DOB" class="dob">
+            </div>
+            <div class="input-password">
+                <input id="password" type="password" placeholder="Password">
+                <input id="confirmPassword" type="password" placeholder="Confirm Password">
+            </div>
+            <div class="input-submit" id="input-submit">
+                <button class="change change-display" onclick="updatedata(id)">Modify</button>
+                <input id="submit" type="submit" class="submit" onclick="postdata()">
+                <button class="delete delete-display" onclick="deletedata(id)">Delete</button>
+            </div>
+        </div>
+        <div class="datatable" id="datatable">
+            <!-- <table class="maintable" style="width: 100%;" id="table">
+                <tr class="header">
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>E-mail</th>
+                    <th>DOB</th>
+                    <th>Mobile</th>
+                    <th></th>
+                </tr>
+
+            </table> -->
+        </div>
+    </div>
+
+
+</body>
+
+</html>

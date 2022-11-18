@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row topbar">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 title-box">
+                <h1 class="fw-bolder title">Tic - Tac - Toe</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container main-content">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 content-box">
+                <h1 class="fw-bolder content">Let's Play</h1>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 main-board">
+                <div class="row board-content">
+                   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 board" id="board">
+                       <div class="cell" data-cell></div>
+                       <div class="cell" data-cell></div>
+                       <div class="cell" data-cell></div>
+                       <div class="cell" data-cell></div>
+                       <div class="cell" data-cell></div>
+                       <div class="cell" data-cell></div>
+                       <div class="cell" data-cell></div>
+                       <div class="cell" data-cell></div>
+                       <div class="cell" data-cell></div>
+                   </div>
+                   <div class="winning-message" id="winning-message">
+                       <div class="winning-message-text winning-text"></div>
+                       <button class="play-again" id="play-again">Play Again</button>
+                   </div>
+                </div>
+                <div class="row current-player-indicator" id="current-player-indicator">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 fw-bolder players"><span class="player-X" id="player-X">X's turn</span></div>                   
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 fw-bolder players"><span class="player-O" id="player-O">O's turn</span></div>                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="foot container-fluid">
+        <p>&copy; Karthi_Munirathinam</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
