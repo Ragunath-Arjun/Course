@@ -8,7 +8,7 @@ function App() {
 
 function Cart() {
   const [cart,setCart]=useState(0);
-  
+
   return (
     <>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -33,7 +33,7 @@ function Cart() {
                         <button class="btn btn-outline-dark" type="submit">
                             <i class="bi-cart-fill me-1"></i>
                             Cart
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">{cart}</span>
+                            <sup><span class="badge bg-dark text-white ms-1 rounded-pill">{cart}</span></sup>
                         </button>
                     </form>
                 </div>
